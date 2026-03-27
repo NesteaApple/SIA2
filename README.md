@@ -77,9 +77,3 @@ The application will be available at: `http://127.0.0.1:8000`
 * [Laravel Documentation](https://laravel.com/docs)
 * [Vite Documentation](https://vitejs.dev/)
 * [Composer Documentation](https://getcomposer.org/doc/)
-```
-
-### Tips for Alignment:
-* **Indentation:** Ensure the code blocks (triple backticks) start at the beginning of the line to prevent rendering issues.
-* **Spacing:** I have added horizontal rules (`---`) and clear headers to make the guide easy to follow for other developers.
-* **Database Note:** I included a reminder for the `.env` file, as forgetting to change the database credentials is the most common cause of errors during cloning.
