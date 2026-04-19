@@ -33,3 +33,8 @@ Route::middleware('auth')->group(function () {
 require __DIR__.'/auth.php';
 
 Route::get('/products', [ProductController::class, 'index']);
+
+// ADD this line at the bottom to load the new Students module routes
+require base_path('app/Modules/Students/Routes/web.php');
+
+require base_path('app/Modules/Courses/Routes/web.php');
